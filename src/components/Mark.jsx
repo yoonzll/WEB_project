@@ -66,7 +66,7 @@ export const Mark = ({ book, mark }) => {
         </>
       ) : (
         <div>
-          <div>
+          <div className='flex justify-center'>
             {mark.image && (
               <img
                 src={mark.image}
